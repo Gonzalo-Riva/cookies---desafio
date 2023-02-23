@@ -1,0 +1,54 @@
+input {
+    margin: 5px;
+}
+
+
+#headerhome {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(189, 189, 189);
+    color: white;
+    align-items: center;
+    justify-content: end;
+}
+
+#headerMenu {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+}
+
+#headerMenu li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#headerMenu li a {
+    text-decoration: none;
+    color: white;
+}
+
+#paginacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#paginacion button {
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 5%;
+}
+
+#page {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
